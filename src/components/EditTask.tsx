@@ -48,11 +48,11 @@ const EditTask = ({
     e.preventDefault();
 
     if (newTitle.length < 3) {
-      setError("Please enter a title with at least 3 characters");
+      setError("Por favor insira um título com pelo menos 3 caracteres");
     } else if (newDescription.length < 3) {
-      setError("Please enter a description with at least 3 characters");
+      setError("Por favor insira uma descrição com pelo menos 3 caracteres");
     } else if (!newStatus) {
-      setError("Please select a status for the task");
+      setError("elecione um status para a tarefa");
     } else {
       const editedTask = {
         title: newTitle,
@@ -87,13 +87,13 @@ const EditTask = ({
               htmlFor="name"
               className="text-left"
             >
-              Title
+              Título
             </Label>
             <Input
               id="name"
               value={newTitle}
               onChange={(e) => setNewTitle(e.target.value)}
-              placeholder="Title"
+              placeholder="Título"
               className="col-span-3"
             />
           </div>
@@ -109,7 +109,7 @@ const EditTask = ({
               rows={5}
               value={newDescription}
               onChange={(e) => setNewDescription(e.target.value)}
-              placeholder="Description"
+              placeholder="Descrição"
               className="col-span-3"
             />
           </div>

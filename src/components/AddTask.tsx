@@ -36,11 +36,11 @@ const AddTask = observer(() => {
     e.preventDefault();
 
     if (title.length < 3) {
-      setError("Please enter a title with at least 3 characters");
+      setError("Por favor insira um título com pelo menos 3 caracteres");
     } else if (description.length < 3) {
-      setError("Please enter a description with at least 3 characters");
+      setError("Por favor insira uma descrição com pelo menos 3 caracteres");
     } else if (!status) {
-      setError("Please select a status for the task");
+      setError("Selecione um status para a tarefa");
     } else {
       const newTask = {
         id: Date.now().toString(),
@@ -89,7 +89,7 @@ const AddTask = observer(() => {
                 id="name"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                placeholder="Title"
+                placeholder="Título"
                 className="col-span-3"
               />
             </div>
@@ -106,7 +106,7 @@ const AddTask = observer(() => {
                 rows={5}
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                placeholder="Description"
+                placeholder="Descrição"
               />
             </div>
             <div className="grid grid-cols-4 items-center gap-2">
