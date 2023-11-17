@@ -5,8 +5,8 @@ import { StoreProvider } from "@/stores/StoreProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Task Management App",
-  description: "An application for managing tasks",
+  title: "Organizador de Tarefas",
+  description: "Uma aplicação para gerenciar tarefas",
 };
 
 export default function RootLayout({
