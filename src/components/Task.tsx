@@ -62,16 +62,16 @@ const Task = observer(({ id, title, description, status }: TaskProps) => {
       <Badge
         className="my-2"
         variant={
-          status === "pending"
+          status === "pendente"
             ? "error"
-            : status === "in_progress"
+            : status === "em_andamento"
             ? "warning"
             : "success"
         }
       >
-        {status === "pending"
+        {status === "pendente"
           ? "Pendente"
-          : status === "in_progress"
+          : status === "em_andamento"
           ? "Em andamento"
           : "Concluída"}
       </Badge>

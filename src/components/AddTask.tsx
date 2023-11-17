@@ -126,7 +126,7 @@ const AddTask = observer(() => {
                 <SelectContent>
                   <SelectItem value="pendente">Pendente</SelectItem>
                   <SelectItem value="em_andamento">Em andamento</SelectItem>
-                  <SelectItem value="concluída">Concluída</SelectItem>
+                  <SelectItem value="concluida">Concluída</SelectItem>
                 </SelectContent>
               </Select>
             </div>
