@@ -121,12 +121,12 @@ const AddTask = observer(() => {
                 onValueChange={setStatus}
               >
                 <SelectTrigger className="col-span-3">
-                  <SelectValue placeholder="Task Status" />
+                  <SelectValue placeholder="Status da Tarefa" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="pending">Pendente</SelectItem>
-                  <SelectItem value="in_progress">Em andamento</SelectItem>
-                  <SelectItem value="completed">Concluída</SelectItem>
+                  <SelectItem value="pendente">Pendente</SelectItem>
+                  <SelectItem value="em_andamento">Em andamento</SelectItem>
+                  <SelectItem value="concluída">Concluída</SelectItem>
                 </SelectContent>
               </Select>
             </div>
