@@ -128,9 +128,9 @@ const EditTask = ({
                 <SelectValue placeholder="Task Status" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="pending">Pendente</SelectItem>
-                <SelectItem value="in_progress">Em Andamento</SelectItem>
-                <SelectItem value="completed">Concluída</SelectItem>
+                <SelectItem value="pendente">Pendente</SelectItem>
+                <SelectItem value="em_andamento">Em Andamento</SelectItem>
+                <SelectItem value="concluida">Concluída</SelectItem>
               </SelectContent>
             </Select>
           </div>

@@ -20,27 +20,27 @@ const TaskFilter = ({}: TaskFilterProps) => {
         </Link>
 
         <Link
-          href="/?tasks=pending"
+          href="/?tasks=concluida"
           className={`${
-            tasksFilter === "pending" && "bg-emerald-200 text-slate-900 "
+            tasksFilter === "concluida" && "bg-emerald-200 text-slate-900 "
           } inline-block px-4 sm:px-14 py-2 rounded focus:outline-none`}
         >
           Pendente
         </Link>
 
         <Link
-          href="/?tasks=in_progress"
+          href="/?tasks=em_andamento"
           className={`${
-            tasksFilter === "in_progress" && "bg-emerald-200 text-slate-900 "
+            tasksFilter === "em_andamento" && "bg-emerald-200 text-slate-900 "
           } inline-block px-4 sm:px-14 py-2 rounded focus:outline-none`}
         >
           Em Andamento
         </Link>
 
         <Link
-          href="/?tasks=completed"
+          href="/?tasks=concluida"
           className={`${
-            tasksFilter === "completed" && "bg-emerald-200 text-slate-900 "
+            tasksFilter === "concluida" && "bg-emerald-200 text-slate-900 "
           } inline-block px-4 sm:px-14 py-2 rounded focus:outline-none`}
         >
           Concluída

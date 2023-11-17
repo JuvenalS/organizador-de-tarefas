@@ -17,15 +17,15 @@ const TaskList = observer(() => {
   //@ts-ignore
   let filteredTasks: types.Array<Instance<typeof TaskModel>> = taskStore.tasks;
 
-  if (tasksFilter === "pending") {
-    filteredTasks = taskStore.tasks.filter((task) => task.status === "pending");
-  } else if (tasksFilter === "in_progress") {
+  if (tasksFilter === "pendente") {
+    filteredTasks = taskStore.tasks.filter((task) => task.status === "pendente");
+  } else if (tasksFilter === "em_andamento") {
     filteredTasks = taskStore.tasks.filter(
-      (task) => task.status === "in_progress"
+      (task) => task.status === "em_andamento"
     );
-  } else if (tasksFilter === "completed") {
+  } else if (tasksFilter === "concluida") {
     filteredTasks = taskStore.tasks.filter(
-      (task) => task.status === "completed"
+      (task) => task.status === "concluida"
     );
   }
 
@@ -34,12 +34,12 @@ const TaskList = observer(() => {
       <div className="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between mb-8 sm:mb-14">
         <h2 className="text-2xl font-semibold">
           Todas{" "}
-          {tasksFilter === "pending"
-            ? "Pending"
-            : tasksFilter === "in_progress"
-            ? "In Progress"
-            : tasksFilter === "completed"
-            ? "Completed"
+          {tasksFilter === "pendente"
+            ? "Pendente"
+            : tasksFilter === "em_andamento"
+            ? "Em Andamento"
+            : tasksFilter === "concluida"
+            ? "Concluída"
             : ""}{" "}
           Tarefas
         </h2>
