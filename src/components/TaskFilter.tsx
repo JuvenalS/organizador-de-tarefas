@@ -20,9 +20,9 @@ const TaskFilter = ({}: TaskFilterProps) => {
         </Link>
 
         <Link
-          href="/?tasks=concluida"
+          href="/?tasks=pendente"
           className={`${
-            tasksFilter === "concluida" && "bg-emerald-200 text-slate-900 "
+            tasksFilter === "pendente" && "bg-emerald-200 text-slate-900 "
           } inline-block px-4 sm:px-14 py-2 rounded focus:outline-none`}
         >
           Pendente
