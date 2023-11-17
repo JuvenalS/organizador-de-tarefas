@@ -70,10 +70,10 @@ const Task = observer(({ id, title, description, status }: TaskProps) => {
         }
       >
         {status === "pending"
-          ? "Pending"
+          ? "Pendente"
           : status === "in_progress"
-          ? "In Progress"
-          : "Completed"}
+          ? "Em andamento"
+          : "Concluída"}
       </Badge>
 
       <p className="mt-2 text-sm text-slate-600">{description}</p>
