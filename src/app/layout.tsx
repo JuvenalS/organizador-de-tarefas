@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { StoreProvider } from "@/stores/StoreProvider";
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`bg-slate-100 ${inter.className}`}>
         <StoreProvider>
           <main className="container">{children}</main>
