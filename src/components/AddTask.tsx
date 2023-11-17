@@ -83,7 +83,7 @@ const AddTask = observer(() => {
                 htmlFor="name"
                 className="text-left"
               >
-                Title
+                Título
               </Label>
               <Input
                 id="name"
