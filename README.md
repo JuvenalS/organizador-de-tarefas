@@ -2,14 +2,25 @@
 
 Este é um aplicativo de gerenciamento de tarefas desenvolvido com Next.js. Ele permite aos usuários criar, visualizar, editar e excluir tarefas. O aplicativo utiliza armazenamento local para persistência de dados.
 
-## Características
+Acesse a aplicação: [Organizador]</br>
+Veja como usar: [Video]
+
+## Equipe de Desenvolvimento
+
+Chaiane Pereira Ferrao</br>
+Gabriel de Souza Borges</br>
+Juvenal Silveira da Silva Neto</br>
+Tiago Tome de Souza</br>
+Weslley Silva Dias</br>
+
+## Características do Aplicativo
 
 - Visualizar lista de tarefas
 - Adicione uma nova tarefa
 - Editar uma tarefa existente
 - Excluir uma tarefa
 
-## Getting Started
+## Iniciando após clonagem/fork
 
 First, run the development server:
 
@@ -28,3 +39,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+[Organizador]: <https://orgainizador-de-tarefas-gilt.vercel.app>
+[Video]: <>
