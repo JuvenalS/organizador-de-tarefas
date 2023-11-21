@@ -41,4 +41,4 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 [Organizador]: <https://organizador-de-tarefas-gilt.vercel.app/>
-[Video]: <>
+[Video]: <https://www.youtube.com/watch?v=mDT5rm37aok&ab_channel=ChaianeFerr%C3%A3o>
